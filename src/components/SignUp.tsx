@@ -6,10 +6,11 @@ const SignUp = () => {
             <input
                 type="text"
                 placeholder="Email or phone number"
-                className="bg-[#1B1513] outline-none border border-gray-700 pl-3 rounded-md py-3"
+                className="bg-[#1B1513] outline-2 border border-gray-700 pl-3 rounded-md py-4 w-[350px]"
             />
-            <button className="bg-red-600 text-white flex items-center">
-                <span> Get Started</span> <MdOutlineArrowForwardIos />
+            <button className="bg-[#E50914] text-white flex gap-3 items-center px-5 rounded-md">
+                <span className="text-xl font-semibold"> Get Started</span>{" "}
+                <MdOutlineArrowForwardIos size={20} />
             </button>
         </div>
     );
