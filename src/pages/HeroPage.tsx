@@ -12,8 +12,8 @@ const HeroPage = () => {
             ></div>
 
             <div className="absolute top-0 left-0 w-full text-white">
-                <header className="max-w-[1200px] mx-auto mt-5">
-                    <nav className="flex items-center justify-between">
+                <header className="relative max-w-[1200px] mx-auto mt-5">
+                    <nav className="w-full absolute flex items-center justify-between">
                         <div className="w-[150px]">
                             <img src={logo} alt="logo" />
                         </div>
