@@ -3,7 +3,7 @@ import kids from "../assets/kids.png";
 const KidsPage = () => {
     return (
         <div className="w-full h-[600px] bg-black text-white border-b-4 border-gray-900 flex items-center">
-            <div className="max-w-[1200px] h-full mx-auto flex flex-row items-center justify-between">
+            <div className="max-w-[1200px] h-full mx-auto flex lg:flex-row md:flex-col sm:flex-col flex-col items-center justify-between">
                 <div className="w-[50%] h-full flex justify-center items-center">
                     <img src={kids} alt="" />
                 </div>

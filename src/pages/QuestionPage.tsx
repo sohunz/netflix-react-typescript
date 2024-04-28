@@ -3,7 +3,7 @@ import SignUp from "../components/SignUp";
 
 const QuestionPage = () => {
     return (
-        <div className="pt-20 bg-black text-white pb-10 border-b-4 border-gray-900">
+        <div className="pt-20 bg-black text-white pb-10 border-b-4 border-gray-900 px-5">
             <div className="max-w-[1200px] mx-auto">
                 <p className="text-5xl font-[900] text-center mb-12">
                     Frequently Asked Questions

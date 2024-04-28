@@ -12,24 +12,24 @@ const HeroPage = () => {
             ></div>
 
             <div className="absolute top-0 left-0 w-full text-white">
-                <header className="relative max-w-[1200px] mx-auto mt-5">
-                    <nav className="w-full absolute flex items-center justify-between">
-                        <div className="w-[150px]">
+                <header className=" max-w-[1200px] mx-auto mt-5 px-5">
+                    <nav className="w-full  flex items-center justify-between">
+                        <div className="lg:w-[150px] md:w-[120px] sm:w-[100px] w-[100px]">
                             <img src={logo} alt="logo" />
                         </div>
-                        <button className="text-white bg-[#E50914] py-1 px-3 rounded-md">
+                        <button className="text-white bg-[#E50914] py-1 px-4 rounded-md">
                             Sign In
                         </button>
                     </nav>
                 </header>
-                <main className="max-w-[1200px] mx-auto h-screen flex flex-col justify-center items-center">
-                    <p className="text-5xl font-extrabold">
+                <main className="max-w-[1200px] mx-auto h-screen flex flex-col justify-center items-center px-5">
+                    <p className="lg:text-5xl md:text-4xl sm:text-4xl text-4xl font-extrabold text-center">
                         Unlimited movies, TV shows, and more
                     </p>
-                    <p className="text-2xl my-5">
+                    <p className="lg:text-2xl md:text-xl sm:text-xl text-xl my-5 text-center">
                         Watch anywhere. Cancel anytime.
                     </p>
-                    <p className="text-xl">
+                    <p className="text-xl text-center">
                         Ready to watch? Enter your email or mobile number to
                         create or restart your membership.
                     </p>
