@@ -5,7 +5,7 @@ const QuestionPage = () => {
     return (
         <div className="pt-20 bg-black text-white pb-10 border-b-4 border-gray-900 px-5">
             <div className="max-w-[1200px] mx-auto">
-                <p className="text-5xl font-[900] text-center mb-12">
+                <p className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl font-[900] text-center mb-12">
                     Frequently Asked Questions
                 </p>
                 <Accordion
@@ -37,7 +37,7 @@ const QuestionPage = () => {
                 />
             </div>
             <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-between py-10">
-                <p className="text-xl pt-10">
+                <p className="text-xl pt-10 lg:text-left md:text-center sm:text-center text-center">
                     Ready to watch? Enter your email or mobile number to create
                     or restart your membership.
                 </p>

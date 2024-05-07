@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <div className="w-full h-[400px] text-white bg-black">
-            <div className="max-w-[1200px] mx-auto flex justify-between pt-16">
+        <div className="w-full  text-white bg-black px-5">
+            <div className="max-w-[1200px] mx-auto flex lg:flex-row md:flex-row sm:flex-col flex-col justify-between pt-16 pb-5">
                 <ul className="flex flex-col gap-2 underline text-gray-300">
                     <li>Questions? Contact us.</li>
                     <li>FAQ</li>

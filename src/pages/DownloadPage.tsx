@@ -5,7 +5,7 @@ import { MdDownload } from "react-icons/md";
 const DownloadPage = () => {
     return (
         <div className="w-full py-24 bg-black text-white border-b-4 border-gray-900">
-            <div className="max-w-[1200px] h-full mx-auto lg:flex-row md:flex-col sm:flex-col flex-col items-center justify-center ">
+            <div className="max-w-[1200px] h-full mx-auto flex lg:flex-row md:flex-col sm:flex-col flex-col items-center justify-center ">
                 <div className="lg:w-[50%] md:w-full h-full ">
                     <div className="w-full h-full flex justify-center">
                         <div className="relative w-full h-full flex justify-center items-center">
@@ -29,7 +29,7 @@ const DownloadPage = () => {
                     </div>
                 </div>
                 <div className="lg:w-[50%] md:w-full h-full flex flex-col justify-center">
-                    <p className="text-5xl font-[900] pb-5 leading-normal lg:text-left md:text-center sm:text-center text-center">
+                    <p className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl font-[900] pb-5 leading-normal lg:text-left md:text-center sm:text-center text-center">
                         Download your shows to watch offline
                     </p>
                     <p className="text-2xl lg:text-left md:text-center sm:text-center text-center">
